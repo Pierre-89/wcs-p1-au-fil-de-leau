@@ -5,15 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Au fil de l'eau</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="list.css">
 </head>
 
 <body>
     <header>
+        <img src="Images/vaguesbateau.png" class="imgheader">
 
+        <nav class="navbar">
+            <div class="tel">
+                <span>N° Tél : 05.56.00.00.00</span>
+                <a href="">Notre boutique</a>
+            </div>
+            <div class="moncompte">
+                <a href="">Mon compte</a>
+                <a href>Mon panier</a>
+                <a href="">FR</a>
+            </div>
+        </nav>
 
-
-
+        <div class="navbar1">
+            <div class="flex-container1">
+                <a href=""><img src="Images/bâteau.png"></a>
+                <p><a href="">LEGER</a></p>
+                <p><a href="">EPAIS</a></p>
+                <p><a href="">SOLDES</a></p>
+            </div>
+        </div>
     </header>
     <main>
         <div class="flex-container">
@@ -26,7 +44,7 @@
                         <li>Léger</li>
                         <a href="" target="_blank"></a> <!--lien vers marinière léger-->
                         <li>Epais</li>
-                        <li><span>Soldes</span></li>
+                        <li><span class="style1">Soldes</span></li>
                     </ul>
                 </div>
                 <div class="filters-container-taille">
@@ -66,9 +84,10 @@
                     <h2>Prix</h2>
                     <div class="price-slider">
                         <input type="range" min="45" max="90" value="90">
-                        <span>45,00 €</span>
-                        <span>90,00 €</span>
-
+                        <div class="price-labels">
+                            <span class="style2">45,00 €</span>
+                            <span class="style2">90,00 €</span>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -78,25 +97,27 @@
 
             <section class="section2">
                 <div class="Marinière épais">
-                    <img src="homme-mariniere-epais.png" alt="Marinière multicolore coton épais" height="500"
+                    <img src="Images/homme-mariniere-epais.png" alt="Marinière multicolore coton épais" height="500"
                         width="350">
                     <h3>Marinère coton épais</h3>
                     <h4>79€</h4>
                 </div>
                 <div class="Marinières léger">
-                    <img src="image-femme-mariniere-leger.png" alt="Marinière multicolore coton léger" height="500"
-                        width="350">
+                    <img src="Images/image-femme-mariniere-leger.png" alt="Marinière multicolore coton léger"
+                        height="500" width="350">
                     <h3>Marinière coton léger</h3>
                     <h4>59€</h4>
                 </div>
                 <div class="Marinières léger 2">
-                    <img src="image-femme-mariniere-epais.png" alt="Marinière Soldes" height="500" width="350">
+                    <img src="Images/image-femme-mariniere-epais.png" alt="Marinière Soldes" height="500" width="350">
                     <h3>Marinière coton léger</h3>
                     <h4>59€</h4>
                 </div>
                 <div class="Marinière solde">
-                    <img src="image-homme-mariniere-solde.png" alt="Marinière Soldes" height="500" width="350">
-                    <h3><span>Nos soldes</span></h3>
+                    <img src="Images/image-homme-mariniere-solde.png" alt="Marinière Soldes" height="500" width="350">
+                    <h3>
+                        <span class="style1">Nos soldes</span>
+                    </h3>
                 </div>
 
             </section>
