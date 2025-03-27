@@ -1,0 +1,255 @@
+@import url('https://discord.com/channels/1351257688574787604/1351257688574787607/1354771691443851334');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 20px;
+    border-bottom: 2px solid #BCD3E3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+body {
+    font-family: 'Imprima', sans-serif;
+    
+}
+
+.navbar .flex-container {
+    width: 100%;
+    color: #4284AE;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4284AE;
+}
+
+.navbar1 .flex-container1 p {
+    
+    font-weight: bolder;
+}
+
+.flex-container2 {
+    max-width: 100%;
+}
+
+.tel {
+    display: flex;
+    height: 60px;
+    gap: 30px;
+    align-items: center;
+    font-weight: bold;
+    color: #4284AE;
+}
+
+.moncompte {
+    display: flex;
+    height: 60px;
+    gap: 30px;
+    align-items: center;
+}
+
+.container>* {
+    margin: 0 10px;
+    flex: 1;
+    
+}
+
+
+.navbar1 {
+    
+    padding-top: 10px;
+    
+    
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: center; 
+}
+
+.flex-container1 img {
+    height: 40px;
+
+}
+
+.imgheader {
+    width: 100%;
+}
+
+.breadcrumb {
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+    
+
+}
+
+.breadcrumb li {
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+.flex-container-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+
+.flex-container-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container-span {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    
+}
+
+.container-span a {
+    color: black;
+}
+
+.grid-container-marinieres {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-container-marinieres img {
+    width: 300px;
+}
+
+.guide-des-tailles {
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.guide-des-tailles a {
+    color: black;
+    
+}
+
+.couleur {
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.round-colors {
+    display: flex;
+
+    height: 30px;
+}
+
+.rouge {
+    width: 30px;
+    background-color: red;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 1px solid grey;
+
+}
+
+.bleu {
+    width: 30px;
+    background-color: rgb(33, 33, 223);
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 2px solid black;
+    
+}
+
+.jaune {
+    width: 30px;
+    background-color: rgb(235, 235, 93);
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.taille {
+    font-size: 12px;
+}
+
+#pet-select {
+    width: 100%;
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 1.571;
+    color: #0b1f2c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+button {
+    -webkit-appearance: none;
+    background-color: white;
+    border-color: white;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4284AE;
+    border: 0;
+
+}
+
+button:hover {
+    text-decoration: underline ;
+
+}
+
+.tab-content {
+    border:1px solide;
+    display: none;
+    margin-left: 10px;
+
+}
+
+.onglets-bas-de-page {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 320px) {
+    .navbar, .navbar1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .flex-container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-container2 img {
+        max-width: 100%;
+        height: auto;
+    }
+}
