@@ -3,26 +3,27 @@
    ========================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Seaweed+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
-   
+
 :root {
   /* Colors */
   --primary-color: #2a75a4;
   --secondary-color: #404E59;
   --white: #fff;
-  
+
   /* Typography */
   --font-primary: 'Imprima', sans-serif;
   --font-decorative: 'Seaweed Script', cursive;
-  
+
   /* Spacing */
   --spacing-sm: 8px;
   --spacing-md: 15px;
   --spacing-lg: 30px;
-  
+
   /* Border Radius */
   --border-radius: 8px;
   --button-radius: 25px;
 }
+
 /* ==========================================================================
    2. RESET & BASE STYLES
    ========================================================================== */
@@ -382,7 +383,7 @@ body {
 
 .footer-section address p {
   margin-bottom: 5px;
-  line-height: 1.3; 
+  line-height: 1.3;
 }
 
 .footer-section:first-child {
@@ -459,22 +460,22 @@ body {
   .season-navigation {
     gap: 250px;
   }
-  
+
   .brand-items-container {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .brand-item {
     min-width: 80%;
   }
-  
+
   .services-section {
     flex-wrap: wrap;
     justify-content: center;
     gap: var(--spacing-lg);
   }
-  
+
   .service {
     width: calc(50% - 30px);
     min-width: 280px;
@@ -498,27 +499,27 @@ body {
   .season-navigation {
     gap: 150px;
   }
-  
+
   .products-section {
     padding: 20px 10px;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .product {
     width: 90%;
     max-width: none;
   }
-  
+
   .brand-item {
     width: 90%;
   }
-  
+
   .services-section {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .service {
     width: 90%;
     max-width: 350px;
@@ -529,19 +530,19 @@ body {
   .season-navigation {
     gap: 50px;
   }
-  
+
   .product {
     width: 95%;
   }
-  
+
   .brand-item {
     width: 95%;
   }
-  
+
   .footer-section {
     padding: 0 var(--spacing-md);
   }
-  
+
   .service {
     width: 95%;
   }
